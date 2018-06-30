@@ -1,0 +1,294 @@
+@media (max-width: 600px) {
+
+    nav .title {
+        display: block;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        background: none;
+        border: none;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    nav .myNav {
+        display: none;
+        float: none;
+    }
+
+    ul .navList {
+        float: none;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    h1 .logo {
+        display: none;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    div .icons {
+        width: 200px;
+        height: 200px;
+    }
+    
+    div .pdf {
+        height: 400px;
+    }
+
+    nav .title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    nav .menu {
+        display: block;
+        border-top: 5px solid rgb(2, 230, 230);
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    body .outer-container {
+        width: 100%;
+    }
+
+    div .go-top {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1310px) {
+    nav .myNav {
+        position: static;
+    }
+}
+
+body {
+    background: rgb(2, 230, 230);
+}
+
+.outer-container {
+    width: 80%;
+    background: rgb(248, 247, 247);
+    margin: 0 auto;
+    box-shadow: 0px 1px 20px #444;
+}
+
+.inner-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-nav-container {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 5px solid rgb(2, 230, 230);
+    margin-bottom: 30px;
+    padding: 40px 0 10px 0;
+}
+
+.title {
+    display: inline;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    padding-right: 20px;
+}
+
+.fa-3x {
+    margin: 10px 10px 0 0;
+}
+
+.menu {
+    display: none;
+}
+
+.active {
+    display: block !important;
+}
+
+.myNav {
+    display: block;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navList {
+    margin-left: 10px;
+    float: left;
+    display: block;
+    font-size: 25px;
+}
+
+.a:hover {
+    border-bottom: 4px solid #ffa500;
+    color: rgb(136, 135, 135);
+    opacity: 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.about-container {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 5px solid rgb(2, 230, 230);
+    border-bottom: 5px solid rgb(2, 230, 230);
+}
+
+.go-top {
+    position: fixed;
+    right: 150px;
+    bottom: 50px;
+    z-index: 100;
+}
+
+#last-name {
+    color: rgb(2, 230, 230);
+}
+
+.name {
+    font-size: 35px;
+    margin-bottom: 20px
+}
+
+div p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button {
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 0 15px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    transition: transform 5s ease-out;
+}
+
+.portfolio-button {
+    background: rgb(248, 247, 247);
+    border: 1px solid rgb(2, 230, 230);
+    color: rgb(2, 230, 230) !important;
+    padding: 10px;
+}
+
+.resume-button {
+    color: rgb(248, 247, 247) !important;
+    background: rgb(2, 230, 230);
+    border: none;
+    padding: 11px;
+}
+
+.skills-container {
+    border-bottom: 5px solid rgb(2, 230, 230);
+}
+
+.my-skills {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(2, 230, 230);
+    padding-top: 30px;
+    color: rgb(136, 135, 135);
+}
+
+.icons {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    padding: 20px 40px 20px 0;
+}
+
+div .css {
+    width: 230px;
+    padding: 0;
+}
+
+div div h3 {
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+div div p {
+    padding-bottom: 20px;
+}
+
+.resume-container {
+    margin: 30px 0;
+    border-bottom: 5px solid rgb(2, 230, 230);
+
+}
+
+.pdf {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.pdf-link {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0;
+}
+
+a:link {
+    color: rgb(136, 135, 135);
+    text-decoration: none;
+    opacity: .7;
+}
+
+a:visited {
+    color: rgb(136, 135, 135);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(136, 135, 135);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(2, 230, 230);
+    text-decoration: none;
+}
+
+.footer-container {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+
+.footer {
+    color: rgb(136, 135, 135);
+}
